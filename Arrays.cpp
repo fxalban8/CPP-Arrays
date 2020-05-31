@@ -27,5 +27,16 @@ int main(){
 		cout<<"Element "<<i<<" = "<<array2[i]<<endl;
 	}
 
+
+
+
+	//declaring an array of Strings and assigning its values
+	string text[3]={"apple","banana","orange"};
+
+	//printing the string array
+	for(int i=0;i<3;i++){
+		cout<<"Text "<<i<<" says "<<text[i]<<endl;
+	}
+
 	return 0;
 }
