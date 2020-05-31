@@ -38,5 +38,8 @@ int main(){
 		cout<<"Text "<<i<<" says "<<text[i]<<endl;
 	}
 
+	//wait for the user to press ENTER
+	cin.get();
+
 	return 0;
 }
