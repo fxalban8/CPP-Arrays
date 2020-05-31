@@ -15,6 +15,17 @@ int main(){
 	cout<<"array[0]= "<<array[0]<<endl;
 	cout<<"array[1]= "<<array[1]<<endl;
 	cout<<"array[2]= "<<array[2]<<endl;
+
+
 	
+
+	//declaring an array of Doubles and assigning values
+	double array2[4]={2.4,4.5,7.9,2.1};
+
+	//printing each element of the array by using a FOR-Loop
+	for(int i=0;i<4;i++){
+		cout<<"Element "<<i<<" = "<<array2[i]<<endl;
+	}
+
 	return 0;
 }
